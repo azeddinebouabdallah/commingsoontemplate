@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="your coming soon template">
+    <meta name="author" content="http://bootstraptaste.com">
+
+    <title>Coming soon</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.css" rel="stylesheet">
+
+    <!-- siimple style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+	<div id="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Sedulous Dev</h1>
+					<h2 class="subtitle">Welcome to Sedulousdev blog, where you can find computer science last updates, tips and tricks about programming, review about books and much more ... </h2>
+					<div id="countdown"></div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/didoudzb/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                         <a href="https://twitter.com/azeddine_dev"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                         <a href="https://plus.google.com/117132804464135970545"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                         <a href="https://www.linkedin.com/in/azeddine-bouabdallah-3226a4149/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+						<p class="copyright">&copy;  All Rights Reserved</p>
+                        <div class="credits">
+                        </div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script type="text/javascript">
+      $('#countdown').countdown('2018/09/28', function(event) {
+        $(this).html(event.strftime('%d day <br /> %H:%M:%S'));
+      });
+    </script>
+
+</body>
+</html>
